@@ -1,0 +1,1 @@
+# solvermind-sample-project
