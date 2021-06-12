@@ -1,0 +1,15 @@
+<div class="row" style="background: aliceblue;">
+  <div class="col-md-6">
+<h1>Angular 8</h1></div>
+<!-- This nav gives you links to click, which tells the router which route to use (defined in the routes constant in  AppRoutingModule) -->
+<div class="col-md-6">
+<nav>
+  <div style="display: flex;">
+    <a routerLink="/first-component" routerLinkActive="active">List Component</a>
+    <a routerLink="/second-component" routerLinkActive="active">Dropdown Component</a>
+    <a routerLink="/third-component" routerLinkActive="active">Third Component</a>
+  </div>
+</nav></div>
+</div>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,12 @@
+<div class="container mt-5">
+    <ng-multiselect-dropdown
+  [placeholder]="'custom placeholder'"
+  [settings]="dropdownSettings"
+  [data]="dropdownList"
+  
+  (onSelect)="onItemSelect($event)"
+  (onSelectAll)="onSelectAll($event)"
+>
+<!-- [(ngModel)]="selectedItems" -->
+</ng-multiselect-dropdown>
+</div>
